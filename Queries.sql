@@ -41,6 +41,19 @@ WHERE NOT EXISTS(
 
 /********* AGGREGATE FUNCTIONS *********/
 
+/*** Find the average amount of times a player has been reported ***/
+
+SELECT AVG(times_reported)
+FROM Player
+
+/*** Find the tuple corresponding to the highest damaging champion skill ***/
+
+SELECT *, MAX(Damage) 
+FROM Champion_Skills2
+
+
+/********* NESTED AGGREGATE FUNCTIONS *********/
+
 /*** Find the players who have purchased the most champions ***/
 
 SELECT p.Username, p.Region, COUNT(*) 
@@ -54,16 +67,55 @@ HAVING COUNT(*) =
 			WHERE p.Username = INPUT1, c.playerID = INPUT1, p.Region = INPUT2, c.playerRegion = INPUT2
 			GROUP BY p.Username, p.Region))
 
+/*** Find the average player level of the players who were reported the most times ***/
 
-/*** Find the average amount of times a player has been reported ***/
+SELECT AVG(playerLevel)
+FROM (SELECT
+		playerLevel
+		FROM Player
+		WHERE times_reported = (SELECT MAX(times_reported) FROM Player))
 
-SELECT AVG(times_reported)
-FROM Player
+/********* DELETION *********/
+
+/*** Deleting an item, which will cascade the deletion to the tuples in the table that stores information
+     that champions wield this item ***/
+
+-- Show that the tuples exist first
+
+/*
+SELECT *
+FROM Champion_Wield_Item
+WHERE itemID = INPUT1
+*/
+
+-- Then delete
+DELETE FROM Champion
+WHERE Name = INPUT1
+
+/*** Deleting one of a champion's skills will not cascade ***/
+
+DELETE FROM Champion_Skills1
+WHERE championID = INPUT1
+
+DELETE FROM Champion_Skills2
+WHERE championID = INPUT1
+
+/********* UPDATION *********/
+
+-- The constraint
+ALTER TABLE Player
+ADD CHECK (playerLevel > 0)
 
 
+-- Violating constraint
+UPDATE Player
+SET playerLevel = -99
+WHERE Username = INPUT1 AND Region = INPUT2
 
-
-
+-- Unviolating constraint
+UPDATE Player
+SET playerLevel = 30
+WHERE Username = INPUT1 AND Region = INPUT2
 
 
 
