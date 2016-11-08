@@ -21,7 +21,6 @@ CREATE TABLE Player(
 	ipPoints INTEGER,
 	Division varchar(10),
 	accountStatus varchar(10),
-	accountType varchar(10),
 	PRIMARY KEY(Username, Region)
 	);
 
