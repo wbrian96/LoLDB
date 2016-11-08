@@ -24,6 +24,9 @@ CREATE TABLE Player(
 	PRIMARY KEY(Username, Region)
 	);
 
+ALTER TABLE Player
+ADD CHECK (playerLevel > 0)
+
 grant select on Player to public;
 
 
@@ -90,7 +93,8 @@ CREATE TABLE Champion_Wield_Item(
 	itemID varchar(30),
 	PRIMARY KEY(championID, itemID),
 	FOREIGN KEY (championID) REFERENCES Champion(Name),
-	FOREIGN KEY (itemID) REFERENCES Item(Name));
+	FOREIGN KEY (itemID) REFERENCES Item(Name))
+	ON DELETE CASCADE;
 
 grant select on Champion_Wield_Item to public;
 
