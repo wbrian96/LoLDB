@@ -1,60 +1,120 @@
-Player Functionality: User must supply Username, Password and Region information prior to any actions below
-Can Report other Players
+--  /**** Can Report other Players ****/
+
 	INSERT into Report_A_Player
 	VALUES(reportID, reporteeID, reporteeRegion, reportedID, reportedRegion, reportedTimeDayMonthYear, offendingAction);
 
+--  /**** Player can look back on the Reports they filed ****/
 
-Player can look back on the Reports they filed
 	SELECT reportID, reportedID, reportedRegion, time, offendingAction
 	FROM Report_A_Player
 		WHERE reporterID= INPUT1 AND reporterRegion = INPUT2;
 
-
-FIX
-Can purchase Champions with fixed IP or RP
-		INSERT into Player_Purchase_Champion
-		VALUES(playerID, playerRegion, championID, cost);
+--  /**** Can purchase Champions with fixed IP or RP ****/
 		
+		SELECT ipPoints 
+		FROM Player
+		WHERE Username = INPUT1 AND Region = INPUT2
+
+		/* OR
+
+		SELECT rpPoints 
+		FROM Player
+		WHERE Username = INPUT1 AND Region = INPUT2
+
+		/*If Player doesnt have enough ipPoints/rpPoints to purchase)
+		  cancel query*/
+
+		INSERT into Player_Purchase_Champion
+		VALUES(playerID, playerRegion, championID, cost, purchasedWith);
+		
+		/* Depending on whether purchasedWith was with rp or ip */
+
 		UPDATE Player
 		SET ipPoints = ipPoints - cost
+		WHERE Username = playerID AND Region = playerRegion
 
+		/* 
+		OR 
 
-Can purchase Items with fixed IP or RP
-	INSERT into Player_Purchase_Champion
-	VALUES(playerID, playerRegion, championID, cost);
-	
 		UPDATE Player
-SET ipPoints = ipPoints - cost
+		SET riotPoints = riotPoints - cost
+		WHERE Username = playerID AND Region = playerRegion
 
+		*/
 
-Can upgrade Items with fixed IP or RP
+--  /**** Can purchase Items with fixed IP or RP ****/
+
+		SELECT ipPoints 
+		FROM Player
+		WHERE Username = INPUT1 AND Region = INPUT2
+
+		/* OR
+
+		SELECT rpPoints 
+		FROM Player
+		WHERE Username = INPUT1 AND Region = INPUT2
+		
+		/*If Player doesnt have enough ipPoints/rpPoints to purchase)
+		  cancel query*/
+
+		INSERT into Purchase_And_Upgrade
+		VALUES(playerID, playerRegion, itemID, Cost, upgradeConversion, purchasedWith);
+		
+		/* Depending on whether purchasedWith was with rp or ip */
+
+		UPDATE Player
+		SET ipPoints = ipPoints - cost
+		WHERE Username = playerID AND Region = playerRegion
+
+		/* 
+		OR 
+
+		UPDATE Player
+		SET riotPoints = riotPoints - cost
+		WHERE Username = playerID AND Region = playerRegion
+
+		*/
+
+--  /**** Can upgrade Items with fixed IP or RP ****/
 	INSERT into Purchase_And_Upgrade
 		VALUES(
-Can level up Champions with active ability of specific Items
-	
-Can equip Items to Champions
+
+
+--  /**** Can equip Items to Champions ****/
 	SELECT COUNT(*)
 	FROM Player_Purchase_Champion
 	WHERE player_id = INPUT1 AND player_region = INPUT2 AND champion_id = INPUT3
 
-	If the count > 0
+	/* If the count > 0 */
 	
 	INSERT into Champion_Wield_Item
-VALUES (champion_id, item_id, player_id);
+	VALUES (champion_id, item_id, player_id);
 
-	Else throw an error (“Player doesn’t own champion”)
+	/* Else throw an error (“Player doesn’t own champion”) */
 	
-	
-Can query information on Champion Skills given that they owe the Champion
+
+--  /**** Can query information on Champion Skills given that they owe the Champion ****/
+
 	SELECT s.Type, s.Description, s.Effect
 	FROM Player_Purchase_Champion pc, Champion_Skills1 s
 	WHERE pc.player_id = INPUT1 AND player_region = INPUT2 AND champion_id = INPUT3 AND s.championID = INPUT3
 
-Can query information on Champion Stats given that they owe the Champion
-SELECT s.Type, s.baseValue, s.growthPerLevel
+--  /**** Can query information on Champion Stats given that they owe the Champion ****/
+
+	SELECT s.Type, s.baseValue, s.growthPerLevel
 	FROM Player_Purchase_Champion pc, Champion_Stats1 s
 	WHERE pc.player_id = INPUT1 AND player_region = INPUT2 AND champion_id = INPUT3 AND s.championID = INPUT3
 
+
+
+
+
+
+
+
+/* FUNCTIONALITY LEFT TO IMPLEMENT 
+
+-- [HARD] Can level up Champions with active ability of specific Items
 
 Player Query Access:
 For a given Player find Champions such that all Skills is at maximum level
@@ -114,4 +174,4 @@ Champion_Stats1(champion_id, type, base_value, champion_level, growth_per_level)
 Champion_Stats2(champion_id, champion_level, growth_per_level, current_value)
 
 
-Report_A_Player(report_id, reportee_pid, reportee_region, reported_pid, reported_region, time, offending_action)
+Report_A_Player(report_id, reportee_pid, reportee_region, reported_pid, reported_region, time, offending_action) */
