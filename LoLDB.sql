@@ -21,6 +21,7 @@ CREATE TABLE Player(
 	ipPoints INTEGER,
 	Division varchar(10),
 	accountStatus varchar(10),
+	accountType varchar(10),
 	PRIMARY KEY(Username, Region)
 	);
 
@@ -44,6 +45,7 @@ CREATE TABLE Player_Purchase_Champion(
 	playerRegion varchar(10),
 	championID varchar(30),
 	Cost INTEGER,
+	purchasedWith varchar(2),
 	PRIMARY KEY(playerID, playerRegion, championID),
 	FOREIGN KEY (playerID, playerRegion) REFERENCES Player(Username, Region),
 	FOREIGN KEY (championID) REFERENCES Champion(Name);
