@@ -67,6 +67,7 @@ CREATE TABLE Purchase_And_Upgrade(
 	itemID varchar(30),
 	Cost INTEGER,
 	upgradeConversion INTEGER,
+	purchasedWith varchar(2),
 	PRIMARY KEY(playerID, playerRegion, itemID),
 	FOREIGN KEY (playerID, playerRegion) REFERENCES Player(Username, Region),
 	FOREIGN KEY (itemID) REFERENCES Item(Name));
