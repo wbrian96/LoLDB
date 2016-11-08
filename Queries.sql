@@ -8,7 +8,7 @@
 
 --  /*** Player can look back on the Reports they filed ***/
 
-	SELECT reportID, reportedID, reportedRegion, time, offendingAction
+	SELECT reportID, reporterID, reporterRegion, time, offendingAction
 	FROM Report_A_Player
 	WHERE reporterID = INPUT1 AND reporterRegion = INPUT2;
 
@@ -125,7 +125,7 @@ WHERE Username = INPUT1 AND Region = INPUT2
 --  /**** Can Report other Players ****/
 
 	INSERT into Report_A_Player
-	VALUES(reportID, reporteeID, reporteeRegion, reportedID, reportedRegion, reportedTimeDayMonthYear, offendingAction);
+	VALUES(reportID, reporteeID, reporteeRegion, reporterID, reporterRegion, reportedTimeDayMonthYear, offendingAction);
 
 
 --  /**** Can purchase Champions with fixed IP or RP ****/
@@ -308,4 +308,4 @@ Champion_Stats1(champion_id, type, base_value, champion_level, growth_per_level)
 Champion_Stats2(champion_id, champion_level, growth_per_level, current_value)
 
 
-Report_A_Player(report_id, reportee_pid, reportee_region, reported_pid, reported_region, time, offending_action) */
+Report_A_Player(report_id, reportee_pid, reportee_region, reporter_pid, reporter_region, time, offending_action) */
