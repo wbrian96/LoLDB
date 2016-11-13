@@ -47,12 +47,48 @@ CREATE TABLE Player_Purchase_Champion(
 	playerRegion varchar(10),
 	championID varchar(30),
 	Cost INTEGER,
-	purchasedWith varchar(2),
 	PRIMARY KEY(playerID, playerRegion, championID),
 	FOREIGN KEY (playerID, playerRegion) REFERENCES Player(Username, Region),
-	FOREIGN KEY (championID) REFERENCES Champion(Name);
+	FOREIGN KEY (championID) REFERENCES Champion(Name));
 
 grant select on Player_Purchase_Champion to public;
+
+
+/*
+
+// If a player purchases a champion with cost over 4800
+// award the player 100 riotpoints
+
+CREATE OR REPLACE TRIGGER champion_spending_reward
+AFTER INSERT ON Player_Purchase_Champion
+FOR EACH ROW
+BEGIN
+	IF :New.Cost > 4800 THEN
+	UPDATE Player SET riotPoints = riotPoints + 100
+	WHERE Player.Username = :NEW.playerID;
+	END IF;
+END;
+/
+
+// If a player makes an RP purchase of 3000 or above
+// halve all the upgrade costs to his/her items and
+// give the player the champion Lee Sin
+
+CREATE OR REPLACE TRIGGER rp_spending_reward
+AFTER UPDATE ON PLAYER
+FOR EACH ROW
+BEGIN
+	IF :NEW.riotPoints >= :OLD.riotPoints + 3000 THEN
+	UPDATE Purchase_And_Upgrade SET upgradeConversion = upgradeConversion * 0.5
+	WHERE Purchase_And_Upgrade.playerID = :NEW.Username;
+
+	INSERT INTO Player_Purchase_Champion
+	VALUES(:New.Username, :New.Region, 'Lee Sin', '4800');
+	END IF;
+END;
+/
+
+*/
 
 
 CREATE TABLE Item(
@@ -71,7 +107,6 @@ CREATE TABLE Purchase_And_Upgrade(
 	itemID varchar(30),
 	Cost INTEGER,
 	upgradeConversion INTEGER,
-	purchasedWith varchar(2),
 	PRIMARY KEY(playerID, playerRegion, itemID),
 	FOREIGN KEY (playerID, playerRegion) REFERENCES Player(Username, Region),
 	FOREIGN KEY (itemID) REFERENCES Item(Name));
@@ -93,8 +128,8 @@ CREATE TABLE Champion_Wield_Item(
 	itemID varchar(30),
 	PRIMARY KEY(championID, itemID),
 	FOREIGN KEY (championID) REFERENCES Champion(Name),
-	FOREIGN KEY (itemID) REFERENCES Item(Name))
-	ON DELETE CASCADE;
+	FOREIGN KEY (itemID) REFERENCES Item(Name)
+	ON DELETE CASCADE);
 
 grant select on Champion_Wield_Item to public;
 
@@ -279,7 +314,7 @@ insert into Champion
 values('Kindred', '1', '6300', 'Marksman', 'Mark of the Kindred', 'Independent', '1');
 
 insert into Champion
-values('Lee Sin', '1', '4800', 'Fighter, Slayer', 'Flurry', 'Ionia', '1');
+values('Lee Sin', '1', '4800', 'Fighter', 'Flurry', 'Ionia', '1');
 
 insert into Champion
 values('Lulu', '1', '4800', 'Controller, Mage', 'Pix, Faerie Companion', 'Independent', '1');
@@ -525,7 +560,7 @@ insert into Champion
 values('Blitzcrank', '1', '3150', 'Tank, Fighter', 'Mana Barrier', 'Zaun', '1');
 
 insert into Champion
-values('Ezreal', '1', '4800', 'Marksma, Mage', 'Rising Spell Force', 'Piltover', '1');
+values('Ezreal', '1', '4800', 'Marksman', 'Rising Spell Force', 'Piltover', '1');
 
 insert into Champion
 values('Cassiopeia', '1', '4800', 'Mage', 'Serpentine Grace', 'Noxus', '1');
@@ -558,7 +593,7 @@ insert into Champion
 values('Renekton', '1', '4800', 'Fighter, Tank', 'Reign of Anger', 'Independent', '1');
 
 insert into Champion
-values('Rengar', '1', '6300', 'Slayer, Fighter', 'Unseen Predator', 'Independent', '1');
+values('Rengar', '1', '6300', 'Assassin', 'Unseen Predator', 'Independent', '1');
 
 insert into Champion
 values('Trundle', '1', '4800', 'Fighter, Tank', 'Kings Tribute', 'Freljord, Frostguard, The Frost Trolls', '1');
@@ -572,8 +607,19 @@ values('Alistar', '1', '1350', 'Tank, Controller', 'Trample', 'Independent', '1'
 insert into Player_Purchase_Champion
 values('Sneaky', 'NA', 'Jhin', '6300');
 
+/*
+
 insert into Player_Purchase_Champion
 values('PraY', 'KR', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Jinx', '6300');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Rengar', '6300');
+
+*/
+
 
 insert into Player_Purchase_Champion
 values('Bjergsen', 'NA', 'Cassiopeia', '4800');
@@ -846,6 +892,9 @@ insert into Purchase_And_Upgrade
 values('DoubleLift', 'NA', 'Phantom Dancer', '2550', '650');
 
 insert into Purchase_And_Upgrade
+values('DoubleLift', 'NA', 'Recurve Bow', '1000', '2000');
+
+insert into Purchase_And_Upgrade
 values('Bjergsen', 'NA', 'Elixir of Sorcery', '500', 'null');
 
 insert into Purchase_And_Upgrade
@@ -971,3 +1020,5 @@ values('004', 'Huni', 'KR', 'Rush', 'KR', '041004112016',
 insert into Report_A_Player
 values('005', 'Jensen', 'NA', 'Impact', 'NA', '193015102016', 
 'Top die but my team mid die');
+
+
