@@ -53,44 +53,6 @@ CREATE TABLE Player_Purchase_Champion(
 
 grant select on Player_Purchase_Champion to public;
 
-
-/*
-
-// If a player purchases a champion with cost over 4800
-// award the player 100 riotpoints
-
-CREATE OR REPLACE TRIGGER champion_spending_reward
-AFTER INSERT ON Player_Purchase_Champion
-FOR EACH ROW
-BEGIN
-	IF :New.Cost > 4800 THEN
-	UPDATE Player SET riotPoints = riotPoints + 100
-	WHERE Player.Username = :NEW.playerID;
-	END IF;
-END;
-/
-
-// If a player makes an RP purchase of 3000 or above
-// halve all the upgrade costs to his/her items and
-// give the player the champion Lee Sin
-
-CREATE OR REPLACE TRIGGER rp_spending_reward
-AFTER UPDATE ON PLAYER
-FOR EACH ROW
-BEGIN
-	IF :NEW.riotPoints >= :OLD.riotPoints + 3000 THEN
-	UPDATE Purchase_And_Upgrade SET upgradeConversion = upgradeConversion * 0.5
-	WHERE Purchase_And_Upgrade.playerID = :NEW.Username;
-
-	INSERT INTO Player_Purchase_Champion
-	VALUES(:New.Username, :New.Region, 'Lee Sin', '4800');
-	END IF;
-END;
-/
-
-*/
-
-
 CREATE TABLE Item(
 	Name varchar(30),
 	Cost INTEGER,
@@ -1020,5 +982,46 @@ values('004', 'Huni', 'KR', 'Rush', 'KR', '041004112016',
 insert into Report_A_Player
 values('005', 'Jensen', 'NA', 'Impact', 'NA', '193015102016', 
 'Top die but my team mid die');
+
+/*
+
+// If a player purchases a champion with cost over 4800
+// award the player 100 riotpoints
+
+*/
+
+CREATE OR REPLACE TRIGGER champion_spending_reward
+AFTER INSERT ON Player_Purchase_Champion
+FOR EACH ROW
+BEGIN
+	IF :New.Cost > 4800 THEN
+	UPDATE Player SET riotPoints = riotPoints + 100
+	WHERE Player.Username = :NEW.playerID;
+	END IF;
+END;
+/
+
+
+/*
+
+// If a player makes an RP purchase of 3000 or above
+// halve all the upgrade costs to his/her items and
+// give the player the champion Lee Sin
+
+*/
+
+CREATE OR REPLACE TRIGGER rp_spending_reward
+AFTER UPDATE ON PLAYER
+FOR EACH ROW
+BEGIN
+	IF :NEW.riotPoints >= :OLD.riotPoints + 3000 THEN
+	UPDATE Purchase_And_Upgrade SET upgradeConversion = upgradeConversion * 0.5
+	WHERE Purchase_And_Upgrade.playerID = :NEW.Username;
+
+	INSERT INTO Player_Purchase_Champion
+	VALUES(:New.Username, :New.Region, 'Lee Sin', '4800');
+	END IF;
+END;
+/
 
 
