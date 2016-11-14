@@ -58,14 +58,14 @@ FROM Champion_Skills2
 
 SELECT p.Username, p.Region, COUNT(*) 
 FROM Player p, Player_Purchase_Champion c
-WHERE p.Username = INPUT1, c.playerID = INPUT1, p.Region = INPUT2, c.playerRegion = INPUT2
+WHERE p.Username = c.playerID AND p.Region = c.playerRegion
 GROUP BY p.Username, p.Region
 HAVING COUNT(*) =
 	(SELECT MAX(c) FROM
 		(SELECT COUNT(*) AS c
 			FROM Player p, Player_Purchase_Champion c
-			WHERE p.Username = INPUT1, c.playerID = INPUT1, p.Region = INPUT2, c.playerRegion = INPUT2
-			GROUP BY p.Username, p.Region))
+			WHERE p.Username = c.playerID AND p.Region = c.playerRegion
+			GROUP BY p.Username, p.Region));
 
 /*** Find the average player level of the players who were reported the most times ***/
 

@@ -162,7 +162,7 @@ values('haHAA', 'NA', '420',
 
 delete from Player
 	where Username = 'haHAA';
-	
+
 insert into Player
 values('LemonNation', 'NA', '123',
 '30', '0', '900', '100000', 'Challenger', 'OK');
@@ -275,13 +275,13 @@ insert into Champion
 values('Brand', '1', '4800', 'Mage', 'Blaze', 'Independent', '1');
 
 insert into Champion
-values('Braum', '1', '6300', 'Controller, Tank', 'Concussive Blows', 'Freljord, Avarosan', '1');
+values('Braum', '1', '6300', 'Tank', 'Concussive Blows', 'Freljord, Avarosan', '1');
 
 insert into Champion
 values('Fiddlesticks', '1', '1350', 'Mage, Controller', 'Dread', 'Independent', '1');
 
 insert into Champion
-values('Fiora', '1', '4800', 'Fighter, Slayer', 'Duelists Dance', 'Demacia, House Laurent', '1');
+values('Fiora', '1', '4800', 'Fighter', 'Duelists Dance', 'Demacia, House Laurent', '1');
 
 insert into Champion
 values('Kindred', '1', '6300', 'Marksman', 'Mark of the Kindred', 'Independent', '1');
@@ -290,67 +290,67 @@ insert into Champion
 values('Lee Sin', '1', '4800', 'Fighter', 'Flurry', 'Ionia', '1');
 
 insert into Champion
-values('Lulu', '1', '4800', 'Controller, Mage', 'Pix, Faerie Companion', 'Independent', '1');
+values('Lulu', '1', '4800', 'Mage', 'Pix, Faerie Companion', 'Independent', '1');
 
 insert into Champion
-values('Lux', '1', '3150', 'Mage, Controller', 'Illumination', 'Demacia', '1');
+values('Lux', '1', '3150', 'Mage', 'Illumination', 'Demacia', '1');
 
 insert into Champion
-values('Malphite', '1', '1350', 'Tank, Fighter', 'Granite Shield', 'Independent', '1');
+values('Malphite', '1', '1350', 'Fighter', 'Granite Shield', 'Independent', '1');
 
 insert into Champion
-values('Maokai', '1', '4800', 'Tank, Mage', 'Sap Magic', 'Independent', '1');
+values('Maokai', '1', '4800', 'Tank', 'Sap Magic', 'Independent', '1');
 
 insert into Champion
-values('Nocturne', '1', '4800', 'Slayer, Fighter', 'Umbra Blades', 'Independent', '1');
+values('Nocturne', '1', '4800', 'Fighter', 'Umbra Blades', 'Independent', '1');
 
 insert into Champion
-values('Olaf', '1', '3150', 'Fighter, Tank', 'Berserker Rage', 'Freljord, Winters Claw', '1');
+values('Olaf', '1', '3150', 'Tank', 'Berserker Rage', 'Freljord, Winters Claw', '1');
 
 insert into Champion
-values('Orianna', '1', '4800', 'Mage, Controller', 'Clockwork Windup', 'Piltover', '1');
+values('Orianna', '1', '4800', 'Mage', 'Clockwork Windup', 'Piltover', '1');
 
 insert into Champion
-values('Pantheon', '1', '3150', 'Fighter, Slayer', 'Aegis Protection', 'Mount Targon', '1');
+values('Pantheon', '1', '3150', 'Fighter', 'Aegis Protection', 'Mount Targon', '1');
 
 insert into Champion
-values('Quinn', '1', '6300', 'Marksman, Fighter', 'Harrier', 'Demacia', '1');
+values('Quinn', '1', '6300', 'Marksman', 'Harrier', 'Demacia', '1');
 
 insert into Champion
-values('Yasuo', '1', '6300', 'Fighter, Slayer', 'Way of the Wanderer', 'Independent', '1');
+values('Yasuo', '1', '6300', 'Fighter', 'Way of the Wanderer', 'Independent', '1');
 
 insert into Champion
-values('Zac', '1', '6300', 'Tank, Fighter', 'Cell Division', 'Zaun', '1');
+values('Zac', '1', '6300', 'Tank', 'Cell Division', 'Zaun', '1');
 
 insert into Champion
-values('Zed', '1', '6300', 'Slayer, Fighter', 'Contempt for the Weak', 'Ionia, The Order of the Shadow', '1');
+values('Zed', '1', '6300', 'Slayer', 'Contempt for the Weak', 'Ionia, The Order of the Shadow', '1');
 
 insert into Champion
 values('Ziggs', '1', '4800', 'Mage', 'Short Fuse', 'Bandle City, Piltover', '1');
 
 insert into Champion
-values('Zilean', '1', '1350', 'Controller, Mage', 'Time in a Bottle', 'Piltover', '1');
+values('Zilean', '1', '1350', 'Controller', 'Time in a Bottle', 'Piltover', '1');
 
 insert into Champion
-values('Zyra', '1', '4800', 'Mage, Controller', 'Garden of Thorns', 'Independent', '1');
+values('Zyra', '1', '4800', 'Mage', 'Garden of Thorns', 'Independent', '1');
 
 insert into Champion
-values('Rammus', '1', '1350', 'Tank, Fighter', 'Spiked Shell', 'Independent', '1');
+values('Rammus', '1', '1350', 'Tank', 'Spiked Shell', 'Independent', '1');
 
 insert into Champion
 values('RekSai', '1', '6300', 'Fighter', 'Fury of the XerSai', 'Independent', '1');
 
 insert into Champion
-values('Sejuani', '1', '4800', 'Tank, Fighter', 'Frost Armor', 'Freljord, Winters Claw', '1');
+values('Sejuani', '1', '4800', 'Tank', 'Frost Armor', 'Freljord, Winters Claw', '1');
 
 insert into Champion
 values('Shen', '1', '3150', 'Tank', 'Ki Barrier', 'Ionia, Kinkou Order', '1');
 
 insert into Champion
-values('Shyvana', '1', '3150', 'Fighter, Tank', 'Dragonborn', 'Demacia', '1');
+values('Shyvana', '1', '3150', 'Fighter', 'Dragonborn', 'Demacia', '1');
 
 insert into Champion
-values('Sion', '1', '1350', 'Tank, Fighter', 'Glory in Death', 'Noxus', '1');
+values('Sion', '1', '1350', 'Tank', 'Glory in Death', 'Noxus', '1');
 
 insert into Champion
 values('Sona', '1', '3150', 'Controller, Mage', 'Power Chord', 'Demacia, Ionia', '1');
@@ -557,7 +557,7 @@ insert into Champion
 values('LeBlanc', '1', '3150', 'Slayer, Mage', 'Mirror Image', 'Noxus, The Black Rose', '1');
 
 insert into Champion
-values('Jhin', '1', '6300', 'Marksman, Slayer', 'Whisper', 'Ionia', '1');
+values('Jhin', '1', '6300', 'Marksman', 'Whisper', 'Ionia', '1');
 
 insert into Champion
 values('Jinx', '1', '6300', 'Marksman', 'Get Excited!', 'Zaun', '1');
@@ -575,12 +575,24 @@ insert into Champion
 values('Viktor', '1', '4800', 'Mage', 'Glorious Evolution', 'Zaun', '1');
 
 insert into Champion
-values('Alistar', '1', '1350', 'Tank, Controller', 'Trample', 'Independent', '1');
+values('Alistar', '1', '1350', 'Tank', 'Trample', 'Independent', '1');
 
 insert into Player_Purchase_Champion
-values('Sneaky', 'NA', 'Jhin', '6300');
+values('SneakyGASM', 'NA', 'Jhin', '6300');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Alistar', '1350');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Jinx', '6300');
 
 /*
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Zilean', '1350');
 
 insert into Player_Purchase_Champion
 values('PraY', 'KR', 'Ezreal', '4800');
@@ -598,10 +610,28 @@ insert into Player_Purchase_Champion
 values('Bjergsen', 'NA', 'Cassiopeia', '4800');
 
 insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
 values('Aphromoo', 'NA', 'Alistar', '1350');
 
 insert into Player_Purchase_Champion
-values('BunnyFuFuu', 'NA', 'Thresh', '6300');
+values('BunnyFuFuu', 'NA', 'Alistar', '1350');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Yasuo', '6300');
 
 insert into Item
 values('Dagger', '300', 'null', 'null', 'Basic');
