@@ -33,11 +33,11 @@ FROM Player p
 WHERE NOT EXISTS(
 	SELECT p1.Username, p1.Region
 	FROM Player p1
+	WHERE p1.Username != p.Username
 	MINUS
 	SELECT r.reporterID, r.reporterRegion
 	FROM Report_A_Player r
-	WHERE r.reporteeID = p.Username AND r.reporteeRegion = p.Region)
-
+	WHERE r.reporteeID = p.Username AND r.reporteeRegion = p.Region);
 
 /********* AGGREGATE FUNCTIONS *********/
 
