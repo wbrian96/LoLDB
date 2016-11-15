@@ -46,10 +46,12 @@ WHERE NOT EXISTS(
 SELECT AVG(times_reported)
 FROM Player
 
-/*** Find the tuple corresponding to the highest damaging champion skill ***/
+/*** Find the champion info of the champions with the highest damaging champion skill ***/
 
-SELECT *, MAX(Damage) 
-FROM Champion_Skills2
+SELECT c.Name, c.championLevel, c.Faction, MAX(Damage) 
+FROM Champion c, Champion_Skills2 s
+WHERE c.Name = s.championID AND s.Damage = (SELECT MAX(Damage) FROM Champion_Skills2)
+GROUP BY c.Name, c.championLevel, c.Faction
 
 
 /********* NESTED AGGREGATE FUNCTIONS *********/

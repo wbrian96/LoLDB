@@ -960,19 +960,22 @@ values('Kayle', 'Active', 'Kayle bathes the target allied champion or herself in
 '3', 'DURATION: 2 / 2.5 / 3');
 
 insert into Champion_Skills2
-values('1', '50', 'null', '7');
+values('Fiora', '1', '50', '0', '7');
 
 insert into Champion_Skills2
-values('1', '60', '7', '120');
+values('Sion', '60', '7', '3', '120');
 
 insert into Champion_Skills2
-values('3', '165', '1', '12');
+values('Shyvana', '165', '1', '2', '12');
 
 insert into Champion_Skills2
-values('5', '200', '2', '12');
+values('Alistar', '200', '2', '3', '12');
 
 insert into Champion_Skills2
-values('3', 'null', '3', '80');
+values('Rengar', '200', '50', '3', '12');
+
+insert into Champion_Skills2
+values('Sion', 'null', '3', '3', '80');
 
 insert into Champion_Stats1
 values('Jhin', 'Attack Damage', '53', '1', '4');
