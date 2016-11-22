@@ -3155,22 +3155,397 @@ insert into Champion_Stats1
 values('Jhin', 'Magic Resist', '30', '1', '0');
 
 insert into Champion_Stats1
-values('Jhin', 'Move Speed', '330', '1', '0');
+values('Annie', 'Move Speed', '423', '1', '346');
+
+insert into Champion_Stats1
+values('Ahri', 'Armor', '423', '1', '0');
+
+insert into Champion_Stats1
+values('Shaco', 'Move Speed', '54', '1', '65');
+
+insert into Champion_Stats1
+values('Kayle', 'Armor', '123', '1', '0');
+
+insert into Champion_Stats1
+values('Soraka', 'Health', '645', '1', '0');
+
+insert into Champion_Stats1
+values('Blitzcrank', 'Move Speed', '4574', '1', '0');
+
+insert into Champion_Stats1
+values('Karthus', 'Move Speed', '235', '1', '5');
+
+insert into Champion_Stats1
+values('Ashe', 'Health', '746', '1', '4');
+
+insert into Champion_Stats1
+values('Riven', 'Armor', '857', '1', '0');
+
+insert into Champion_Stats1
+values('Varus', 'Move Speed', '234', '1', '3');
+
+insert into Champion_Stats1
+values('Vayne', 'Health', '794', '1', '0');
+
+insert into Champion_Stats1
+values('Fizz', 'Move Speed', '847', '1', '0');
+
+insert into Champion_Stats1
+values('Fiora', 'Health', '746', '1', '2');
+
+insert into Champion_Stats1
+values('KogMaw', 'Move Speed', '746', '1', '1');
+
+insert into Champion_Stats1
+values('Lissandra', 'Health', '969', '1', '1');
+
+insert into Champion_Stats1
+values('Zac', 'Armor', '388', '1', '0');
+
+insert into Champion_Stats1
+values('Zed', 'Health', '8384', '1', '0');
+
+insert into Champion_Stats1
+values('Zilean', 'Armor', '275', '1', '6');
+
+insert into Champion_Stats1
+values('Corki', 'Health', '3685', '1', '0');
+
+insert into Champion_Stats1
+values('Jinx', 'Move Speed', '584', '1', '65');
+
+insert into Champion_Stats1
+values('Jayce', 'Move Speed', '123', '1', '0');
+
+insert into Champion_Stats1
+values('Jax', 'Health', '6246', '1', '56');
+
+insert into Champion_Stats1
+values('Kled', 'Move Speed', '654', '1', '46');
+
+insert into Champion_Stats1
+values('Kindred', 'Health', '724', '1', '9');
+
+insert into Champion_Stats1
+values('Lucian', 'Move Speed', '684', '1', '8');
+
+insert into Champion_Stats1
+values('Lulu', 'Move Speed', '395', '1', '0');
+
+insert into Champion_Stats1
+values('Lux', 'Move Speed', '2436', '1', '7');
+
+insert into Champion_Stats1
+values('Malphite', 'Health', '735', '1', '6');
+
+insert into Champion_Stats1
+values('Maokai', 'Armor', '7345', '1', '5');
+
+insert into Champion_Stats1
+values('Master Yi', 'Move Speed', '735', '1', '4');
+
+insert into Champion_Stats1
+values('Aurelion Sol', 'Move Speed', '735', '1', '3');
+
+insert into Champion_Stats1
+values('Leona', 'Health', '7365', '1', '0');
+
+insert into Champion_Stats1
+values('Rengar', 'Armor', '765', '1', '654');
+
+insert into Champion_Stats1
+values('Renekton', 'Health', '3343', '1', '32');
+
+insert into Champion_Stats1
+values('Ryze', 'Armor', '123', '1', '0');
+
+insert into Champion_Stats1
+values('Skarner', 'Health', '234', '1', '34');
+
+insert into Champion_Stats1
+values('Sivir', 'Health', '542', '1', '0');
+
+insert into Champion_Stats1
+values('Syndra', 'Move Speed', '134', '1', '0');
+
+insert into Champion_Stats1
+values('Swain', 'Move Speed', '525', '1', '5');
+
+insert into Champion_Stats1
+values('Tahm Kench', 'Health', '423', '1', '0');
+
+insert into Champion_Stats1
+values('Kennen', 'Armor', '524', '1', '0');
+
+insert into Champion_Stats1
+values('Taliyah', 'Health', '6346', '1', '0');
+
+insert into Champion_Stats1
+values('Twitch', 'Armor', '255', '1', '0');
+
+insert into Champion_Stats1
+values('Teemo', 'Health', '413', '1', '45');
+
+insert into Champion_Stats1
+values('Taric', 'Move Speed', '423', '1', '0');
+
+insert into Champion_Stats1
+values('Thresh', 'Health', '734', '1', '0');
+
+insert into Champion_Stats1
+values('Tristana', 'Armor', '43', '1', '65');
+
+insert into Champion_Stats1
+values('Trundle', 'Move Speed', '500', '1', '9');
+
+insert into Champion_Stats1
+values('Warwick', 'Health', '3000', '1', '5');
+
+insert into Champion_Stats1
+values('Urgot', 'Armor', '43', '1', '8');
+
+insert into Champion_Stats1
+values('Veigar', 'Health', '134', '1', '7');
+
+insert into Champion_Stats1
+values('Volibear', 'Move Speed', '645', '1', '5');
+
+insert into Champion_Stats1
+values('Xin Zhao', 'Health', '865', '1', '32');
+
+insert into Champion_Stats1
+values('Ziggs', 'Armor', '453', '1', '54');
+
+insert into Champion_Stats1
+values('Yorick', 'Move Speed', '134', '1', '43');
+
+insert into Champion_Stats1
+values('Twisted Fate', 'Health', '5433', '1', '0');
+
+insert into Champion_Stats1
+values('Udyr', 'Armor', '978', '1', '42');
+
+insert into Champion_Stats1
+values('Yasuo', 'Health', '987', '1', '0');
+
+insert into Champion_Stats1
+values('Zyra', 'Move Speed', '435', '1', '2');
 
 insert into Champion_Stats2
-values('Jhin', '1', '4', '53');
+values('Zyra', '12', '65', '345');
 
 insert into Champion_Stats2
-values('Jhin', '2', '85', '625');
+values('Yasuo', '13', '35', '450');
 
 insert into Champion_Stats2
-values('Jhin', '3', '50', '450');
+values('Udyr', '3', '50', '856');
 
 insert into Champion_Stats2
-values('Jhin', '4', '0', '30');
+values('Twisted', '4', '23', '856');
 
 insert into Champion_Stats2
-values('Jhin', '5', '0', '330');
+values('Yorick', '5', '22', '978');
+
+insert into Champion_Stats2
+values('Ziggs', '6', '67', '345');
+
+insert into Champion_Stats2
+values('Wukong', '7', '56', '213');
+
+insert into Champion_Stats2
+values('Volibear', '8', '45', '245');
+
+insert into Champion_Stats2
+values('Vi', '9', '65', '542');
+
+insert into Champion_Stats2
+values('Viktor', '10', '34', '452');
+
+insert into Champion_Stats2
+values('Vayne', '11', '24', '635');
+
+insert into Champion_Stats2
+values('Varus', '12', '31', '467');
+
+insert into Champion_Stats2
+values('Urgot', '13', '42', '857');
+
+insert into Champion_Stats2
+values('Alistar', '14', '53', '857');
+
+insert into Champion_Stats2
+values('Anivia', '15', '50', '356');
+
+insert into Champion_Stats2
+values('Amumu', '16', '53', '957');
+
+insert into Champion_Stats2
+values('Annie', '17', '64', '275');
+
+insert into Champion_Stats2
+values('Azir', '18', '75', '254');
+
+insert into Champion_Stats2
+values('Bard', '1', '86', '477');
+
+insert into Champion_Stats2
+values('Brand', '2', '69', '357');
+
+insert into Champion_Stats2
+values('Braum', '3', '58', '134');
+
+insert into Champion_Stats2
+values('Caitlyn', '4', '47', '674');
+
+insert into Champion_Stats2
+values('Cassiopeia', '5', '36', '985');
+
+insert into Champion_Stats2
+values('Diana', '6', '25', '154');
+
+insert into Champion_Stats2
+values('Darius', '7', '31', '365');
+
+insert into Champion_Stats2
+values('Draven', '8', '42', '874');
+
+insert into Champion_Stats2
+values('Ezreal', '9', '53', '245');
+
+insert into Champion_Stats2
+values('Evelynn', '10', '64', '376');
+
+insert into Champion_Stats2
+values('Fiora', '13', '76', '246');
+
+insert into Champion_Stats2
+values('Gangplank', '11', '69', '763');
+
+insert into Champion_Stats2
+values('Fiddlesticks', '12', '58', '246');
+
+insert into Champion_Stats2
+values('Gnar', '3', '47', '634');
+
+insert into Champion_Stats2
+values('Graves', '3', '36', '745');
+
+insert into Champion_Stats2
+values('Hecarim', '1', '25', '856');
+
+insert into Champion_Stats2
+values('Gragas', '2', '14', '245');
+
+insert into Champion_Stats2
+values('Galio', '3', '11', '352');
+
+insert into Champion_Stats2
+values('Ekko', '2', '22', '765');
+
+insert into Champion_Stats2
+values('Corki', '2', '33', '423');
+
+insert into Champion_Stats2
+values('ChoGath', '3', '44', '534');
+
+insert into Champion_Stats2
+values('Karthus', '5', '55', '756');
+
+insert into Champion_Stats2
+values('Illaoi', '5', '66', '867');
+
+insert into Champion_Stats2
+values('Heimerdinger', '3', '77', '524');
+
+insert into Champion_Stats2
+values('Jax', '7', '89', '245');
+
+insert into Champion_Stats2
+values('Jayce', '8', '78', '645');
+
+insert into Champion_Stats2
+values('Kalista', '6', '67', '846');
+
+insert into Champion_Stats2
+values('Kayle', '5', '56', '234');
+
+insert into Champion_Stats2
+values('Katarina', '3', '45', '450');
+
+insert into Champion_Stats2
+values('KhaZix', '3', '34', '423');
+
+insert into Champion_Stats2
+values('LeBlanc', '3', '23', '653');
+
+insert into Champion_Stats2
+values('Kindred', '4', '35', '547');
+
+insert into Champion_Stats2
+values('Kled', '5', '98', '444');
+
+insert into Champion_Stats2
+values('Ivern', '6', '87', '333');
+
+insert into Champion_Stats2
+values('Irelia', '7', '76', '222');
+
+insert into Champion_Stats2
+values('Janna', '8', '65', '111');
+
+insert into Champion_Stats2
+values('Lee Sin', '3', '24', '555');
+
+insert into Champion_Stats2
+values('Lissandra', '3', '54', '666');
+
+insert into Champion_Stats2
+values('Lucian', '8', '24', '777');
+
+insert into Champion_Stats2
+values('Lux', '9', '54', '888');
+
+insert into Champion_Stats2
+values('Malphite', '3', '34', '999');
+
+insert into Champion_Stats2
+values('Malzahar', '13', '32', '123');
+
+insert into Champion_Stats2
+values('Miss Fortune', '13', '23', '234');
+
+insert into Champion_Stats2
+values('Mordekaiser', '15', '54', '345');
+
+insert into Champion_Stats2
+values('Morgana', '16', '1', '456');
+
+insert into Champion_Stats2
+values('Nami', '17', '43', '567');
+
+insert into Champion_Stats2
+values('Nasus', '18', '50', '678');
+
+insert into Champion_Stats2
+values('Nautilus', '14', '32', '789');
+
+insert into Champion_Stats2
+values('Nidalee', '3', '50', '987');
+
+insert into Champion_Stats2
+values('Nocturne', '1', '4', '876');
+
+insert into Champion_Stats2
+values('Olaf', '2', '85', '625');
+
+insert into Champion_Stats2
+values('Nunu', '3', '50', '450');
+
+insert into Champion_Stats2
+values('Poppy', '4', '0', '30');
+
+insert into Champion_Stats2
+values('Rammus', '5', '0', '330');
 
 insert into Report_A_Player
 values('001', 'Hide on Bush', 'KR', 'Meateos', 'NA' '183707112016', 
