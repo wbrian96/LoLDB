@@ -3158,19 +3158,19 @@ insert into Champion_Stats1
 values('Jhin', 'Move Speed', '330', '1', '0');
 
 insert into Champion_Stats2
-values('1', '4', '53');
+values('Jhin', '1', '4', '53');
 
 insert into Champion_Stats2
-values('2', '85', '625');
+values('Jhin', '2', '85', '625');
 
 insert into Champion_Stats2
-values('3', '50', '450');
+values('Jhin', '3', '50', '450');
 
 insert into Champion_Stats2
-values('4', '0', '30');
+values('Jhin', '4', '0', '30');
 
 insert into Champion_Stats2
-values('5', '0', '330');
+values('Jhin', '5', '0', '330');
 
 insert into Report_A_Player
 values('001', 'Hide on Bush', 'KR', 'Meateos', 'NA' '183707112016', 
