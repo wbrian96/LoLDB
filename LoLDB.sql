@@ -271,6 +271,14 @@ insert into Player
 values('EDG DEFT', 'KR', 'guunenda',
 '30', '0', '900', '100000', 'Challenger', 'OK');
 
+insert into Player
+values('clg imaqtpie69', 'NA', 'boosted animals',
+'30', '0', '900', '100000', 'Challenger', 'OK');
+
+insert into Player
+values('Nightblue3', 'NA', 'cy@ get out of my jungle',
+'30', '0', '900', '100000', 'Challenger', 'OK');
+
 insert into Champion
 values('Brand', '1', '4800', 'Mage', 'Blaze', 'Independent', '1');
 
@@ -577,6 +585,384 @@ values('Viktor', '1', '4800', 'Mage', 'Glorious Evolution', 'Zaun', '1');
 insert into Champion
 values('Alistar', '1', '1350', 'Tank', 'Trample', 'Independent', '1');
 
+insert into Champion
+values('ChoGath', '1', '1350', 'Tank, Mage', 'Carnivore', 'The Void', '1');
+
+insert into Champion
+values('Diana', '1', '6300', 'Fighter, Mage', 'Crescent Strike', 'Mount Targon, Lunari', '1');
+
+insert into Champion
+values('Dr. Mundo', '1', '1350', 'Fighter, Tank', 'Adrenaline Rush', 'Zaun, Noxus', '1');
+
+insert into Champion
+values('Elise', '1', '6300', 'Mage, Fighter', 'Spider Queen', 'The Black Rose', '1');
+
+insert into Champion
+values('Galio', '1', '4800', 'Tank, Mage', 'Runic Skin', 'Demacia', '1');
+
+insert into Champion
+values('Gnar', '1', '6300', 'Fighter, Tank', 'Rage Gene', 'Independent', '1');
+
+insert into Champion
+values('Graves', '1', '4800', 'Marksman', 'New Destiny', 'Independent', '1');
+
+insert into Champion
+values('Irelia', '1', '4800', 'Fighter, Slayer', 'Ionian Fervor', 'Ionia', '1');
+
+insert into Champion
+values('Janna', '1', '1350', 'Controller, Mage', 'Tailwind', 'Independent', '1');
+
+insert into Champion
+values('Jax', '1', '1350', 'Fighter, Slayer', 'Relentless Assult', 'Independent', '1');
+
+insert into Champion
+values('Jayce', '1', '4800', 'Fighter, Marksman', 'Hextech Capacitor', 'Piltover', '1');
+
+insert into Champion
+values('Karma', '1', '3150', 'Mage, Controller', 'Gathering Fire', 'Ionia', '1');
+
+insert into Champion
+values('Karthus', '1', '3150', 'Mage', 'Death Defied', 'Shadow Isles', '1');
+
+insert into Champion
+values('Katarina', '1', '3150', 'Slayer, Mage', 'Voracity', 'Noxus', '1');
+
+insert into Champion
+values('Kennen', '1', '4800', 'Mage, Marksman', 'Mark of the Storm', 'Ionia, Bandle City, Kinkou Order', '1');
+
+insert into Champion
+values('Kled', '1', '6300', 'Fighter, Tank', 'Skaarl the Cowardly Lizard', 'Noxus', '1');
+
+insert into Champion
+values('KogMaw', '1', '4800', 'Marksman', 'Icathian Surprise', 'The Void', '1');
+
+insert into Champion
+values('Lissandra', '1', '6300', 'Mage', 'Iceborn', 'Freljord, Frostguard', '1');
+
+insert into Champion
+values('Malzahar', '1', '4800', 'Mage, Slayer', 'Void Shift', 'The Void', '1');
+
+insert into Champion
+values('Mordekaiser', '1', '3150', 'Fighter', 'Iron Man', 'Shadow Isles', '1');
+
+insert into Champion
+values('Rumble', '1', '4800', 'Fighter, Mage', 'Junkyard Titan', 'Bandle City', '1');
+
+insert into Champion
+values('Shaco', '1', '3150', 'Slayer', 'Backstab', 'Independent', '1');
+
+insert into Champion
+values('Singed', '1', '450', 'Tank, Fighter', 'Empowered Bulwark', 'Zaun', '1');
+
+insert into Champion
+values('Sivir', '1', '450', 'Marksman', 'Fleet of Foot', 'Shurima', '1');
+
+insert into Champion
+values('Skarner', '1', '4800', 'Fighter, Tank', 'Crystal Spires', 'The Brackern, Shurima', '1');
+
+insert into Champion
+values('Sona', '1', '3150', 'Controller, Mage', 'Power Chord', 'Demacia, Ionia', '1');
+
+insert into Champion
+values('Tristana', '1', '1350', 'Marksman, Slayer', 'Draw a Bead', 'Bandle City', '1');
+
+insert into Champion
+values('Udyr', '1', '1350', 'Fighter, Tank', 'Monkeys Agility', 'Freljord, Winters Claw, Ionia', '1');
+
+insert into Champion
+values('Urgot', '1', '3150', 'Marksman, Fighter', 'Zaun-Touched Bolt Augmenter', 'Noxus, Zaun', '1');
+
+insert into Champion
+values('Vi', '1', '6300', 'Fighter, Slayer', 'Blast Shield', 'Piltover', '1');
+
+insert into Champion
+values('Volibear', '1', '4800', 'Fighter, Tank', 'Chosen of the Storm', 'Freljord, Winters Claw, The Ursine', '1');
+
+insert into Champion
+values('Yorick', '1', '4800', 'Fighter, Tank', 'Shepherd of Souls', 'Shadow Isles', '1');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Jhin', '6300');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Jinx', '6300');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Teemo', '1350');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Varus', '4800');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Miss Fortune', '3150');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Sivir', '450');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Corki', '3150');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Ashe', '450');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Caitlyn', '4800');
+
+insert into Player_Purchase_Champion
+values('Bang', 'KR', 'Twitch', '3150');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Jhin', '6300');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Alistar', '1350');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Jinx', '6300');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Teemo', '1350');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Tristana', '1350');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Miss Fortune', '3150');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Sivir', '450');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Corki', '3150');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Ashe', '450');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Caitlyn', '4800');
+
+insert into Player_Purchase_Champion
+values('PraY', 'KR', 'Twitch', '3150');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Jhin', '6300');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Jinx', '6300');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Tristana', '1350');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Varus', '4800');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Miss Fortune', '3150');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Sivir', '450');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Corki', '3150');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Draven', '4800');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Ashe', '450');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Caitlyn', '4800');
+
+insert into Player_Purchase_Champion
+values('EDG DEFT', 'KR', 'Twitch', '3150');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Jinx', '6300');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Tristana', '1350');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Varus', '4800');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Sivir', '450');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Corki', '3150');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Ashe', '450');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Caitlyn', '4800');
+
+insert into Player_Purchase_Champion
+values('FNC Rekkles', 'EU', 'Twitch', '3150');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Jhin', '6300');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Sivir', '450');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Corki', '3150');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Draven', '4800');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Ashe', '450');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Caitlyn', '4800');
+
+insert into Player_Purchase_Champion
+values('G2 ZV3N', 'EU', 'Twitch', '3150');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Jhin', '6300');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Jinx', '6300');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Tristana', '1350');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Sivir', '450');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Corki', '3150');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Draven', '4800');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Ashe', '450');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Caitlyn', '4800');
+
+insert into Player_Purchase_Champion
+values('clg imaqtpie69', 'NA', 'Twitch', '3150');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Jhin', '6300');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Jinx', '6300');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Tristana', '1350');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Varus', '4800');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Miss Fortune', '3150');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Sivir', '450');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Corki', '3150');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Ashe', '450');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Caitlyn', '4800');
+
+insert into Player_Purchase_Champion
+values('DoubleLift', 'NA', 'Twitch', '3150');
+
 insert into Player_Purchase_Champion
 values('SneakyGASM', 'NA', 'Jhin', '6300');
 
@@ -588,6 +974,51 @@ values('SneakyGASM', 'NA', 'Rengar', '6300');
 
 insert into Player_Purchase_Champion
 values('SneakyGASM', 'NA', 'Jinx', '6300');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Teemo', '1350');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Tristana', '1350');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Varus', '4800');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Miss Fortune', '3150');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Sivir', '450');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Ezreal', '4800');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Corki', '3150');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Draven', '4800');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Ashe', '450');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Caitlyn', '4800');
+
+insert into Player_Purchase_Champion
+values('SneakyGASM', 'NA', 'Twitch', '3150');
 
 /*
 
@@ -607,6 +1038,369 @@ values('PraY', 'KR', 'Rengar', '6300');
 
 
 insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Cassiopeia', '4800');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Zilean', '1350');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Azir', '6300');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Aurelion Sol', '6300');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Ahri', '4800');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Anivia', '3150');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Orianna', '4800');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Twisted Fate', '1350');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Syndra', '6300');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Viktor', '4800');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Xerath', '4800');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'LeBlanc', '3150');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Fizz', '4800');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Talon', '4800');
+
+insert into Player_Purchase_Champion
+values('mid fekar', 'NA', 'Zed', '6300');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Cassiopeia', '4800');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Zilean', '1350');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Viktor', '4800');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Xerath', '4800');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'LeBlanc', '3150');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Katarina', '3150');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Fizz', '4800');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Talon', '4800');
+
+insert into Player_Purchase_Champion
+values('Hai', 'NA', 'Zed', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Cassiopeia', '4800');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Zilean', '1350');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Azir', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Aurelion Sol', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Ahri', '4800');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Anivia', '3150');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Orianna', '4800');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Twisted Fate', '1350');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Taliyah', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Syndra', '6300');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Viktor', '4800');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Xerath', '4800');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'LeBlanc', '3150');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Katarina', '3150');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Fizz', '4800');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Talon', '4800');
+
+insert into Player_Purchase_Champion
+values('Hide on Bush', 'KR', 'Zed', '6300');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Cassiopeia', '4800');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Zilean', '1350');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Anivia', '3150');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Orianna', '4800');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Twisted Fate', '1350');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Taliyah', '6300');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Syndra', '6300');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Viktor', '4800');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Xerath', '4800');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'LeBlanc', '3150');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Katarina', '3150');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Fizz', '4800');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Talon', '4800');
+
+insert into Player_Purchase_Champion
+values('Jensen', 'NA', 'Zed', '6300');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Cassiopeia', '4800');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Zilean', '1350');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Ahri', '4800');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Anivia', '3150');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Orianna', '4800');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Syndra', '6300');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Viktor', '4800');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'Xerath', '4800');
+
+insert into Player_Purchase_Champion
+values('Crown', 'KR', 'LeBlanc', '3150');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Cassiopeia', '4800');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Zilean', '1350');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Azir', '6300');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Aurelion Sol', '6300');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Ahri', '4800');
+
+insert into Player_Purchase_Champion
+values('FNC Febiven', 'EU', 'Zed', '6300');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Cassiopeia', '4800');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Zilean', '1350');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Aurelion Sol', '6300');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Ahri', '4800');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Anivia', '3150');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Orianna', '4800');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Twisted Fate', '1350');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Taliyah', '6300');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Syndra', '6300');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Viktor', '4800');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Xerath', '4800');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'LeBlanc', '3150');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Katarina', '3150');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Fizz', '4800');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Talon', '4800');
+
+insert into Player_Purchase_Champion
+values('Froggen', 'NA', 'Zed', '6300');
+
+insert into Player_Purchase_Champion
 values('Bjergsen', 'NA', 'Cassiopeia', '4800');
 
 insert into Player_Purchase_Champion
@@ -619,7 +1413,151 @@ insert into Player_Purchase_Champion
 values('Bjergsen', 'NA', 'Zac', '6300');
 
 insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Zilean', '1350');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Azir', '6300');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Aurelion Sol', '6300');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Ahri', '4800');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Anivia', '3150');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Orianna', '4800');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Twisted Fate', '1350');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Taliyah', '6300');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Syndra', '6300');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Viktor', '4800');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Xerath', '4800');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'LeBlanc', '3150');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Katarina', '3150');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Fizz', '4800');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Talon', '4800');
+
+insert into Player_Purchase_Champion
+values('Bjergsen', 'NA', 'Zed', '6300');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Leona', '4800');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Blitzcrank', '3150');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Thresh', '6300');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Morgana', '1350');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Taric', '1350');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Tahm Kench', '6300');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Soraka', '450');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Sona', '3150');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Nami', '6300');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Lulu', '4800');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Janna', '1350');
+
+insert into Player_Purchase_Champion
+values('LemonNation', 'NA', 'Braum', '6300');
+
+insert into Player_Purchase_Champion
 values('Aphromoo', 'NA', 'Alistar', '1350');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Leona', '4800');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Blitzcrank', '3150');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Thresh', '6300');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Zyra', '4800');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Morgana', '1350');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Taric', '1350');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Tahm Kench', '6300');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Soraka', '450');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Sona', '3150');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Nami', '6300');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Lulu', '4800');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Janna', '1350');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Ivern', '6300');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Braum', '6300');
+
+insert into Player_Purchase_Champion
+values('Aphromoo', 'NA', 'Bard', '6300');
 
 insert into Player_Purchase_Champion
 values('BunnyFuFuu', 'NA', 'Alistar', '1350');
@@ -628,10 +1566,985 @@ insert into Player_Purchase_Champion
 values('BunnyFuFuu', 'NA', 'Zac', '6300');
 
 insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Leona', '4800');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Blitzcrank', '3150');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Thresh', '6300');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Zyra', '4800');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Morgana', '1350');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Karma', '3150');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Taric', '1350');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Tahm Kench', '6300');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Soraka', '450');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Sona', '3150');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Nami', '6300');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Lulu', '4800');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Janna', '1350');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Ivern', '6300');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu', 'NA', 'Braum', '6300');
+
+insert into Player_Purchase_Champion
+values('BunnyFuFuu' 'NA', 'Bard', '6300');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Gragas', '3150');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Hecarim', '4800');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Lee Sin', '4800');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'RekSai', '6300');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Olaf', '3150');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Vi', '6300');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Elise', '6300');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Kindred', '6300');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Graves', '4800');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'KhaZix', '6300');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Shaco', '3150');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Nidalee', '3150');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Nocturne', '4800');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Jarvan IV', '4800');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Sejuani', '4800');
+
+insert into Player_Purchase_Champion
+values('Rush', 'KR', 'Nunu', '450');
+
+insert into Player_Purchase_Champion
 values('Meateos', 'NA', 'Zac', '6300');
 
 insert into Player_Purchase_Champion
 values('Meateos', 'NA', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Ivern', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Gragas', '3150');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Hecarim', '4800');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Lee Sin', '4800');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Dr. Mundo', '1350');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'RekSai', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Skarner', '4800');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Pantheon', '3150');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Olaf', '3150');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Udyr', '1350');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Volibear', '4800');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Warwick', '450');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Vi', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Xin Zhao', '1350');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Elise', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Kindred', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Graves', '4800');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'KhaZix', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Shaco', '3150');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Nidalee', '3150');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Nocturne', '4800');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Jarvan IV', '4800');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Sejuani', '4800');
+
+insert into Player_Purchase_Champion
+values('Meateos', 'NA', 'Nunu', '450');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Zac', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Ivern', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Gragas', '3150');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Hecarim', '4800');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Lee Sin', '4800');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Dr. Mundo', '1350');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'RekSai', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'KogMaw', '4800');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Pantheon', '3150');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Olaf', '3150');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Udyr', '1350');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Volibear', '4800');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Master Yi', '450');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Vi', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Evelynn', '1350');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Elise', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Kindred', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Graves', '4800');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'KhaZix', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Shaco', '3150');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Nidalee', '3150');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Nocturne', '4800');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Fizz', '4800');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Sejuani', '4800');
+
+insert into Player_Purchase_Champion
+values('Nightblue3', 'NA', 'Amumu', '450');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Tahm Kench', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Gragas', '3150');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Irelia', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Illaoi', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Jax', '1350');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Aatrox', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Darius', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Gnar', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Garen', '450');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Gangplank', '3150');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Fiora', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Dr. Mundo', '1350');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Renekton', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Nasus', '1350');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Pantheon', '3150');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Tryndamere', '1350');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Trundle', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Yorick', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Xin Zhao', '1350');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Heimerdinger', '3150');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Swain', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Vladimir', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Teemo', '1350');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Kassadin', '3150');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Ekko', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Malphite', '1350');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Jarvan IV', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Shen', '3150');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Singed', '450');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Rammus', '1350');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Nautilus', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Maokai', '4800');
+
+insert into Player_Purchase_Champion
+values('Kikis', 'EU', 'Poppy', '450');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Tahm Kench', '6300');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Gragas', '3150');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Jayce', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Kled', '6300');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Aatrox', '6300');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Darius', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Gnar', '6300');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Garen', '450');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Gangplank', '3150');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Fiora', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Dr. Mundo', '1350');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Riven', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Rumble', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Renekton', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Nasus', '1350');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Pantheon', '3150');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Tryndamere', '1350');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Trundle', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Kennen', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Heimerdinger', '3150');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Swain', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Vladimir', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Graves', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Teemo', '1350');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Kassadin', '3150');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Ekko', '6300');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Singed', '450');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Rammus', '1350');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Nautilus', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Maokai', '4800');
+
+insert into Player_Purchase_Champion
+values('Ssumday', 'KR', 'Poppy', '450');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Tahm Kench', '6300');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Irelia', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Illaoi', '6300');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Jax', '1350');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Jayce', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Darius', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Gnar', '6300');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Gangplank', '3150');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Fiora', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Riven', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Rumble', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Pantheon', '3150');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Tryndamere', '1350');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Trundle', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Kennen', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Swain', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Vladimir', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Ekko', '6300');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Malphite', '1350');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Jarvan IV', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Shen', '3150');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Rammus', '1350');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Nautilus', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Maokai', '4800');
+
+insert into Player_Purchase_Champion
+values('Smeb', 'KR', 'Poppy', '450');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Gragas', '3150');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Irelia', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Jayce', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Kled', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Aatrox', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Gnar', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Garen', '450');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Gangplank', '3150');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Fiora', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Dr. Mundo', '1350');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Riven', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Rumble', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Renekton', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Nasus', '1350');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Pantheon', '3150');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Trundle', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Yorick', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Xin Zhao', '1350');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Kennen', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Heimerdinger', '3150');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Swain', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Vladimir', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Graves', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Teemo', '1350');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Kassadin', '3150');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Ekko', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Malphite', '1350');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Jarvan IV', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'ChoGath', '1350');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Sion', '1350');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Shen', '3150');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Singed', '450');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Rammus', '1350');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Maokai', '4800');
+
+insert into Player_Purchase_Champion
+values('Huni', 'NA', 'Poppy', '450');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Tahm Kench', '6300');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Irelia', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Illaoi', '6300');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Jax', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Jayce', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Kled', '6300');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Darius', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Gnar', '6300');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Gangplank', '3150');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Fiora', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Dr. Mundo', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Riven', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Rumble', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Nasus', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Pantheon', '3150');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Tryndamere', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Trundle', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Yorick', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Xin Zhao', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Kennen', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Heimerdinger', '3150');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Swain', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Teemo', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Ekko', '6300');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Malphite', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Jarvan IV', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'ChoGath', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Sion', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Shen', '3150');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Singed', '450');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Rammus', '1350');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Nautilus', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Maokai', '4800');
+
+insert into Player_Purchase_Champion
+values('Hauntzer', 'NA', 'Poppy', '450');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Graves', '4800');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Vayne', '4800');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Teemo', '1350');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Kassadin', '3150');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Ekko', '6300');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Malphite', '1350');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Jarvan IV', '4800');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'ChoGath', '1350');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Sion', '1350');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Shen', '3150');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Singed', '450');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Rammus', '1350');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Maokai', '4800');
+
+insert into Player_Purchase_Champion
+values('Balls', 'NA', 'Poppy', '450');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Gragas', '3150');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Irelia', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Illaoi', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Jax', '1350');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Jayce', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Aatrox', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Darius', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Gnar', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Garen', '450');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Gangplank', '3150');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Fiora', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Riven', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Rumble', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Renekton', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Pantheon', '3150');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Tryndamere', '1350');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Trundle', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Yasuo', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Yorick', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Xin Zhao', '1350');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Lissandra', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Kennen', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Ryze', '450');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Swain', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Vladimir', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Lucian', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Quinn', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Urgot', '3150');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Kassadin', '3150');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Ekko', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Rengar', '6300');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Malphite', '1350');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Jarvan IV', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Sion', '1350');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Shen', '3150');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Nautilus', '4800');
+
+insert into Player_Purchase_Champion
+values('Impact', 'NA', 'Poppy', '450');
 
 insert into Item
 values('Dagger', '300', 'null', 'null', 'Basic');
@@ -727,7 +2640,7 @@ insert into Item
 values('Chain Vest', '800', '500', 'null', 'Advanced');
 
 insert into Item
-values('Chalic of Harmony', '900', '200', 'null', 'Advanced');
+values('Chalice of Harmony', '900', '200', 'null', 'Advanced');
 
 insert into Item
 values('Crystalline Bracer', '650', '100', 'null', 'Advanced');
@@ -935,6 +2848,258 @@ values('Annie', 'Hextech Protobelt-01');
 
 insert into Champion_Wield_Item
 values('Riven', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Ahri', 'The Hex Core mk-1');
+
+insert into Champion_Wield_Item
+values('Akali', 'Sheen');
+
+insert into Champion_Wield_Item
+values('Alistar', 'Wardens Mail');
+
+insert into Champion_Wield_Item
+values('Amumu', 'Tear of the Goddess');
+
+insert into Champion_Wield_Item
+values('Anivia', 'Tear of the Goddess');
+
+insert into Champion_Wield_Item
+values('Ashe', 'Phantom Dancer');
+
+insert into Champion_Wield_Item
+values('Aurelion Sol', 'ZzRot Portal');
+
+insert into Champion_Wield_Item
+values('Azir', 'Dagger');
+
+insert into Champion_Wield_Item
+values('Bard', 'Frostfang');
+
+insert into Champion_Wield_Item
+values('Blitzcrank', 'Targons Bracer');
+
+insert into Champion_Wield_Item
+values('Brand', 'Haunting Guise');
+
+insert into Champion_Wield_Item
+values('Braum', 'Kindlegem');
+
+insert into Champion_Wield_Item
+values('Caitlyn', 'Recurve Bow');
+
+insert into Champion_Wield_Item
+values('Cassiopeia', 'Tear of the Goddess');
+
+insert into Champion_Wield_Item
+values('ChoGath', 'Phage');
+
+insert into Champion_Wield_Item
+values('Corki', 'Sheen');
+
+insert into Champion_Wield_Item
+values('Darius', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Diana', 'Hextech Revolver');
+
+insert into Champion_Wield_Item
+values('Draven', 'Phantom Dancer');
+
+insert into Champion_Wield_Item
+values('Ekko', 'Corrupting Potion');
+
+insert into Champion_Wield_Item
+values('Elise', 'Refillable Potion');
+
+insert into Champion_Wield_Item
+values('Evelynn', 'Hunters Potion');
+
+insert into Champion_Wield_Item
+values('Ezreal', 'Hextech Gunblade');
+
+insert into Champion_Wield_Item
+values('Fiddlesticks', 'Fiendish Codex');
+
+insert into Champion_Wield_Item
+values('Fiora', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Fizz', 'Dorans Ring');
+
+insert into Champion_Wield_Item
+values('Galio', 'Dorans Ring');
+
+insert into Champion_Wield_Item
+values('Gangplank', 'Dorans Shield');
+
+insert into Champion_Wield_Item
+values('Garen', 'Chain Vest');
+
+insert into Champion_Wield_Item
+values('Gnar', 'Dorans Blade');
+
+insert into Champion_Wield_Item
+values('Gragas', 'Giants Belt');
+
+insert into Champion_Wield_Item
+values('Graves', 'Caulfields Warhammer');
+
+insert into Champion_Wield_Item
+values('Hecarim', 'Phage');
+
+insert into Champion_Wield_Item
+values('Heimerdinger', 'Aether Wisp');
+
+insert into Champion_Wield_Item
+values('Illaoi', 'Dorans Blade');
+
+insert into Champion_Wield_Item
+values('Irelia', 'Caulfields Warhammer');
+
+insert into Champion_Wield_Item
+values('Ivern', 'Forbidden Idol');
+
+insert into Champion_Wield_Item
+values('Janna', 'Banner of Command');
+
+insert into Champion_Wield_Item
+values('Jax', 'Long Sword');
+
+insert into Champion_Wield_Item
+values('Jayce', 'Tear of the Goddess');
+
+insert into Champion_Wield_Item
+values('Jhin', 'Long Sword');
+
+insert into Champion_Wield_Item
+values('Jinx', 'Zeal');
+
+insert into Champion_Wield_Item
+values('Kalista', 'Quicksilver Sash');
+
+insert into Champion_Wield_Item
+values('Katarina', 'Negatron Cloak');
+
+insert into Champion_Wield_Item
+values('Kayle', 'Stinger');
+
+insert into Champion_Wield_Item
+values('Karma', 'Kindlegem');
+
+insert into Champion_Wield_Item
+values('Karthus', 'Chalice of Harmony');
+
+insert into Champion_Wield_Item
+values('Kassadin', 'Fiendish Codex');
+
+insert into Champion_Wield_Item
+values('Kennen', 'Dorans Blade');
+
+insert into Champion_Wield_Item
+values('KhaZix', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Kindred', 'Caulfields Warhammer');
+
+insert into Champion_Wield_Item
+values('Kled', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('LeBlanc', 'Fiendish Codex');
+
+insert into Champion_Wield_Item
+values('Alistar', 'Bamis Cinder');
+
+insert into Champion_Wield_Item
+values('Ashe', 'Giant Slayer');
+
+insert into Champion_Wield_Item
+values('Renekton', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Annie', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Lux', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Quinn', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Lux', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Galio', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Garen', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Malphite', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Malphite', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Master Yi', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Renekton', 'Giants Belt');
+
+insert into Champion_Wield_Item
+values('Renekton', 'Chain Vest');
+
+insert into Champion_Wield_Item
+values('Lee Sin', 'Tiamat');
+
+insert into Champion_Wield_Item
+values('Karthus', 'Aether Wisp');
+
+insert into Champion_Wield_Item
+values('Kalista', 'Caulfields Warhammer');
+
+insert into Champion_Wield_Item
+values('Twitch', 'Catalyst of Aeons');
+
+insert into Champion_Wield_Item
+values('Ashe', 'Chain Vest');
+
+insert into Champion_Wield_Item
+values('Lissandra', 'Giant Slayer');
+
+insert into Champion_Wield_Item
+values('Maokai', 'Glacial Shroud');
+
+insert into Champion_Wield_Item
+values('Nidalee', 'Haunting Guise');
+
+insert into Champion_Wield_Item
+values('Nocturne', 'Last Whisper');
+
+insert into Champion_Wield_Item
+values('Nasus', 'Lost Chapter');
+
+insert into Champion_Wield_Item
+values('Nami', 'Negatron Cloak');
+
+insert into Champion_Wield_Item
+values('Sona', 'Hextech Revolver');
+
+insert into Champion_Wield_Item
+values('Soraka', 'Forbidden Idol');
+
+insert into Champion_Wield_Item
+values('Thresh', 'Quicksilver Sash');
+
+insert into Champion_Wield_Item
+values('Syndra', 'Kindlegem');
+
+insert into Champion_Wield_Item
+values('Swain', 'Jaurims Fist');
+
+insert into Champion_Wield_Item
+values('Sion', 'Jaurims Fist');
 
 insert into Champion_Skills1
 values('Jhin', 'Active', 
